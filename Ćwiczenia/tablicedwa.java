@@ -11,5 +11,20 @@ class tablicedwa{
             }
         }
     }
+    private static void tablicaTabliczkaMnozenia(){
+        int [][] tab2d = new int [10][10];
+        //Wypelnienie tablicy
+        for(int i=0;i<tab2d.length;i++){
+            for(int j=0;j<tab2d[i].length;j++){
+                tab2d[i][j] = (i+1)*(j+1);
+            }
+        }
+        for(int i=0;i<tab2d.length;i++){
+            for(int j=0;j<tab2d[i].length;j++){
+            System.out.println(tab2d[i][j]+"\t");
+            }
+            System.out.println();
+        }
+    }
 
 }
