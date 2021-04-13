@@ -1,10 +1,17 @@
 class Main{
     public static void main(String[] args){
-        Osoba o1 = new Osoba(177,80);
-        System.out.println(o1);
-        Osoba o2 = new Osoba("Maciej","Kolpaczek");
-        System.out.println(o2);
-        Osoba o3 = new Osoba("Maciej","Kolpaczek", 177, 99);
-        System.out.println(o3);
+
+        Osoba os = new Osoba(177,80);
+        System.out.println(os);
+
+        System.out.println();
+        
+        Osoba os2 = new Osoba("Maciej","Szczypta");
+        System.out.println(os2);
+
+        System.out.println();
+
+        Osoba os3 = new Osoba("Maciej","Szczypta", 180, 60);
+        System.out.println(os3);
     }
 }
