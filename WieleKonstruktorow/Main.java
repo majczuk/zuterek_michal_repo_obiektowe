@@ -6,12 +6,14 @@ class Main{
 
         System.out.println();
         
-        Osoba os2 = new Osoba("Maciej","Szczypta");
+        Osoba os2 = new Osoba("Michal","Zuterek");
         System.out.println(os2);
 
         System.out.println();
 
-        Osoba os3 = new Osoba("Maciej","Szczypta", 180, 60);
+        Osoba os3 = new Osoba("Michal","Zuterek", 186, 60);
         System.out.println(os3);
+
+        
     }
 }

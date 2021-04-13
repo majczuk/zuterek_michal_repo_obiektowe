@@ -1,6 +1,6 @@
 class Osoba {
     private String imie = "Joe";
-    private String nazwisko = "Hoe";
+    private String nazwisko = "Doe";
     private int waga = 0;
     private int wzrost = 0;
 
