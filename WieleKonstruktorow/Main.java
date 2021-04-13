@@ -1,19 +1,7 @@
 class Main{
     public static void main(String[] args){
+       
+        Triangle tr = new Triangle(3, 5);
 
-        Osoba os = new Osoba(177,80);
-        System.out.println(os);
-
-        System.out.println();
-        
-        Osoba os2 = new Osoba("Michal","Zuterek");
-        System.out.println(os2);
-
-        System.out.println();
-
-        Osoba os3 = new Osoba("Michal","Zuterek", 186, 60);
-        System.out.println(os3);
-
-        
     }
 }
